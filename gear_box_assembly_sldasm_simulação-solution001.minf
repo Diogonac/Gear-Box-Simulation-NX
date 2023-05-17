@@ -1,0 +1,575 @@
+Input file: C:\Users\Acer\Desktop\Gear-Box-Simulation-NX\gear_box_assembly_sldasm_simulação-solution001.minp
+
+Solver running in Simcenter Mode
+
+Copyright Siemens 2022
+
+
+[1764]
+Info: The Business Analytics flag has been set to Yes.
+
+Solver: Simcenter 3D Motion Version 2007 (13.0) Oct 19 2021 12:18:01 Intel Release 64bit
+Interface: RC2007P1400_rc1 2021-09-29
+Hostname: ACER
+OS Type: Windows
+Release: 6.2
+Version: Build 9200
+Machine: 8664
+Integer size:    5000000
+Real size:    5000000
+Mcheps: 0.22204460492503E-15
+
+[1482]
+NOTE:  The system data element specifies inconsistent units:
+  LENGTH.UNIT = MILLIMETER
+  MASS.UNIT   = KILOGRAM
+  FORCE.UNIT  = NEWTON
+Force and mass values are converted to a consistent set of units for
+solution and then converted back to the specified units before being
+reported.
+
+[1296]
+Warning (dynamic data element):  When "INTERPOLATED" is selected for the
+print method, the print frequency feature cannot be used.  PRINT.Freq is
+being reset to zero (disabled) and execution is continuing.
+ The GGL formulation is turned on.
+
+[1276]
+Warning:  In the dynamic data element, the step size is larger
+than the print interval specified in the system data element.  The step
+size is being reset so that it equals the print interval.
+  PRint.interval = 0.16666666666667E-01
+  old MAX.int.step = 5.0000000000000E-02
+  new MAX.int.step = 0.16666666666667E-01
+NOTE:  The Time Series Global Output element will reduce PRint.interval
+       when the Output Rate variable is set to two or more.
+
+License Server is [28000@softwaresacademicos.insper.edu.br]
+
+Features requiring licenses
+-----------------------
+sc_motion_solver "Simcenter Motion Solver"
+
+
+[1134]
+Warning:  Prior to assembly the number of constraints, drivers and
+initial conditions is not equal to the number of generalized
+coordinates.  The assembly algorithm will be executed but the
+result will represent one of several possible solutions.
+Number of constraints, drivers, I.C's =                   33
+Number of generalized coordinates     =                   36
+
+Results achieved by the model assembly process with drivers:
+
+  Number of function evaluations =     1
+  Maximum constraint violation   =   0.191847E-12
+
+ Element: Input_shaft_and_gear
+    Coordinate    New Value     Original Value  Difference
+    X             -286.04        -286.04         0.0000    
+    Y             -44.198        -44.198         0.0000    
+    Z              17.521         17.521         0.0000    
+    E0            0.70246        0.70246         0.0000    
+    E1           -0.92730E-01   -0.92730E-01     0.0000    
+    E2           -0.69958       -0.69958         0.0000    
+    E3            0.92349E-01    0.92349E-01     0.0000    
+
+ Element: Middle_shaft_and_gears
+    Coordinate    New Value     Original Value  Difference
+    X             -256.33        -256.33         0.0000    
+    Y             -44.203        -44.203         0.0000    
+    Z              17.502         17.502         0.0000    
+    E0            0.77569        0.77569         0.0000    
+    E1            0.63111        0.63111         0.0000    
+    E2            0.30770E-04    0.30770E-04     0.0000    
+    E3           -0.37818E-04   -0.37818E-04     0.0000    
+
+ Element: Output_shaft_and_gear
+    Coordinate    New Value     Original Value  Difference
+    X             -236.90        -236.90         0.0000    
+    Y             -5.1984        -5.1984         0.0000    
+    Z              17.501         17.501         0.0000    
+    E0            0.99064        0.99064         0.0000    
+    E1            0.13648        0.13648         0.0000    
+    E2            0.65096E-04    0.65096E-04     0.0000    
+    E3           -0.47250E-03   -0.47250E-03     0.0000    
+
+ Element: Speed_shaft_and_gears
+    Coordinate    New Value     Original Value  Difference
+    X             -276.33        -276.33         0.0000    
+    Y             -5.2025        -5.2025         0.0000    
+    Z              17.499         17.499         0.0000    
+    E0            0.39604        0.39604         0.0000    
+    E1            0.91823        0.91823         0.0000    
+    E2           -0.44767E-04   -0.44767E-04     0.0000    
+    E3            0.19309E-04    0.19309E-04     0.0000    
+
+ Element: the_ground
+    Coordinate    New Value     Original Value  Difference
+    X              0.0000         0.0000         0.0000    
+    Y              0.0000         0.0000         0.0000    
+    Z              0.0000         0.0000         0.0000    
+    E0             1.0000         1.0000         0.0000    
+    E1             0.0000         0.0000         0.0000    
+    E2             0.0000         0.0000         0.0000    
+    E3             0.0000         0.0000         0.0000    
+
+ Element: MOTION_J001_RZ
+    Coordinate    New Value     Original Value  Difference
+    Rel.angle    -0.25462E-13   -0.25462E-13     0.0000    
+
+Ignoring Initial conditions, the following were chosen
+as independent coordinates:
+
+
+ Element: Speed_shaft_and_gears
+    Coordinate:  E1        
+
+ Element: Output_shaft_and_gear
+    Coordinate:  E1        
+
+ Element: Middle_shaft_and_gears
+    Coordinate:  E0        
+
+Number of real data in the system     =     71757
+Number of integer data in the system  =     57242
+
+
+Warning: may need (    3) more driver constraint to drive this model !!!
+
+
+ Time = 0.000000E+00
+*************** initial *****************
+
+Solution of acceleration of generalized coordinates:
+
+ Element: Input_shaft_and_gear
+    Coordinate    Acceleration
+    X              0.00000    
+    Y              0.00000    
+    Z              0.00000    
+    E0             0.00000    
+    E1             0.00000    
+    E2             0.00000    
+    E3             0.00000    
+
+ Element: Middle_shaft_and_gears
+    Coordinate    Acceleration
+    X            -0.320104E-06
+    Y             -700617.    
+    Z              145544.    
+    E0           -0.124101E+09
+    E1            0.152531E+09
+    E2             7436.42    
+    E3             6050.52    
+
+ Element: Output_shaft_and_gear
+    Coordinate    Acceleration
+    X              0.00000    
+    Y             -975307.    
+    Z             0.347251E+07
+    E0           -0.447231E+08
+    E1            0.324625E+09
+    E2             154835.    
+    E3             21331.4    
+
+ Element: Speed_shaft_and_gears
+    Coordinate    Acceleration
+    X            -0.237342E-04
+    Y             0.213759E+09
+    Z             0.201707E+09
+    E0           -0.741599E+11
+    E1            0.319855E+11
+    E2           -0.155946E+07
+    E3           -0.361551E+07
+
+ Element: the_ground
+    Coordinate    Acceleration
+    X              0.00000    
+    Y              0.00000    
+    Z              0.00000    
+    E0             0.00000    
+    E1             0.00000    
+    E2             0.00000    
+    E3             0.00000    
+
+ Element: MOTION_J001_RZ
+    Coordinate    Acceleration
+    Rel.angle      0.00000    
+Begin calling BDF for continuation static solution from 0.000000000000sec to 5.000000000000sec.
+OVERFILL!!  NC=4	numisectlinesr=48	jelem=1	t=0.000000000000
+TESSELLATION SHIFT 6 nc=4
+3D CONTACT element #2 is switching from midplane
+to vertex projection method at time t=0.000000000000.
+TESSELLATION SHIFT 2 nc=95
+3D CONTACT element #3 is switching from midplane
+to vertex projection method at time t=0.000000000000.
+
+[1027]
+Warning from Sparse matrix solution package.
+Matrix decomposition failed. Solver will recreate symbolic factorization
+and try decomposition of matrix again.
+  Warning flag            =     72
+  Current simulation time =   0.386426E-04
+3D CONTACT element #1 is switching from midplane
+to vertex projection method at time t=0.000000000000.
+
+[1027]
+Warning from Sparse matrix solution package.
+Matrix decomposition failed. Solver will recreate symbolic factorization
+and try decomposition of matrix again.
+  Warning flag            =     92
+  Current simulation time =   0.308769E-04
+TESSELLATION SHIFT 1 nc=51892
+
+[1027]
+Warning from Sparse matrix solution package.
+Matrix decomposition failed. Solver will recreate symbolic factorization
+and try decomposition of matrix again.
+  Warning flag            =     95
+  Current simulation time =   0.488827E-04
+
+[1027]
+Warning from Sparse matrix solution package.
+Matrix decomposition failed. Solver will recreate symbolic factorization
+and try decomposition of matrix again.
+  Warning flag            =     63
+  Current simulation time =   0.457705E-02
+
+ Time = 0.000000E+00
+*************** final *******************
+
+Solution of acceleration of generalized coordinates:
+
+ Element: Input_shaft_and_gear
+    Coordinate    Acceleration
+    X              0.00000    
+    Y              0.00000    
+    Z              0.00000    
+    E0             0.00000    
+    E1             0.00000    
+    E2             0.00000    
+    E3             0.00000    
+
+ Element: Middle_shaft_and_gears
+    Coordinate    Acceleration
+    X             0.117998E-16
+    Y             0.129028E-04
+    Z            -0.288300E-05
+    E0            0.227168E-02
+    E1           -0.283528E-02
+    E2           -0.138230E-06
+    E3           -0.110755E-06
+
+ Element: Output_shaft_and_gear
+    Coordinate    Acceleration
+    X              0.00000    
+    Y             0.551447E-05
+    Z            -0.208527E-04
+    E0            0.252610E-03
+    E1           -0.194328E-02
+    E2           -0.926881E-06
+    E3           -0.120487E-06
+
+ Element: Speed_shaft_and_gears
+    Coordinate    Acceleration
+    X             0.477068E-16
+    Y             0.110487E-03
+    Z             0.112531E-03
+    E0           -0.401135E-01
+    E1            0.164005E-01
+    E2           -0.799612E-06
+    E3           -0.195565E-05
+
+ Element: the_ground
+    Coordinate    Acceleration
+    X              0.00000    
+    Y              0.00000    
+    Z              0.00000    
+    E0             0.00000    
+    E1             0.00000    
+    E2             0.00000    
+    E3             0.00000    
+
+ Element: MOTION_J001_RZ
+    Coordinate    Acceleration
+    Rel.angle      0.00000    
+
+Ignoring Initial conditions, the following were chosen
+as independent coordinates:
+
+
+ Element: Middle_shaft_and_gears
+    Coordinate:  E0        
+
+ Element: Output_shaft_and_gear
+    Coordinate:  E1        
+
+ Element: Speed_shaft_and_gears
+    Coordinate:  E1        
+ Using QR Initial Velocity Method
+
+[1286]
+Warning:  Initial conditions may not be sufficient (DAP2).
+Solution of initial velocities, using QR method:
+
+ Element: Input_shaft_and_gear
+    Coordinate    Velocity
+    X            -0.321997E-13
+    Y            -0.215768E-01
+    Z             0.579625E-02
+    E0            0.485531E-01
+    E1            0.367809    
+    E2           -0.483539E-01
+    E3           -0.366301    
+
+ Element: Middle_shaft_and_gears
+    Coordinate    Velocity
+    X            -0.291582E-13
+    Y             0.103339E-13
+    Z            -0.401850E-12
+    E0             0.00000    
+    E1             0.00000    
+    E2             0.00000    
+    E3             0.00000    
+
+ Element: Output_shaft_and_gear
+    Coordinate    Velocity
+    X            -0.262685E-13
+    Y              0.00000    
+    Z            -0.360768E-12
+    E0             0.00000    
+    E1             0.00000    
+    E2             0.00000    
+    E3             0.00000    
+
+ Element: Speed_shaft_and_gears
+    Coordinate    Velocity
+    X            -0.263394E-13
+    Y             0.111051E-13
+    Z            -0.420667E-12
+    E0             0.00000    
+    E1             0.00000    
+    E2             0.00000    
+    E3             0.00000    
+
+ Element: the_ground
+    Coordinate    Velocity
+    X              0.00000    
+    Y              0.00000    
+    Z              0.00000    
+    E0             0.00000    
+    E1             0.00000    
+    E2             0.00000    
+    E3             0.00000    
+
+ Element: MOTION_J001_RZ
+    Coordinate    Velocity
+    Rel.angle      1.04720    
+
+Solution of velocities in local coordinates:
+
+ Element: Input_shaft_and_gear
+    Coordinate    Velocity
+    X            -0.321997E-13
+    Y            -0.215768E-01
+    Z             0.579625E-02
+    OMEGA_XL      0.430312E-02
+    OMEGA_YL      0.216581E-06
+    OMEGA_ZL      -1.04719    
+
+ Element: Middle_shaft_and_gears
+    Coordinate    Velocity
+    X            -0.291582E-13
+    Y             0.103339E-13
+    Z            -0.401850E-12
+    OMEGA_XL       0.00000    
+    OMEGA_YL       0.00000    
+    OMEGA_ZL       0.00000    
+
+ Element: Output_shaft_and_gear
+    Coordinate    Velocity
+    X            -0.262685E-13
+    Y              0.00000    
+    Z            -0.360768E-12
+    OMEGA_XL       0.00000    
+    OMEGA_YL       0.00000    
+    OMEGA_ZL       0.00000    
+
+ Element: Speed_shaft_and_gears
+    Coordinate    Velocity
+    X            -0.263394E-13
+    Y             0.111051E-13
+    Z            -0.420667E-12
+    OMEGA_XL       0.00000    
+    OMEGA_YL       0.00000    
+    OMEGA_ZL       0.00000    
+
+ Element: the_ground
+    Coordinate    Velocity
+    X              0.00000    
+    Y              0.00000    
+    Z              0.00000    
+    OMEGA_XL       0.00000    
+    OMEGA_YL       0.00000    
+    OMEGA_ZL       0.00000    
+
+Number of real data in the system     =    101836
+Number of integer data in the system  =     58716
+
+
+Solution of accelerations in local coordinates:
+
+ Element: Input_shaft_and_gear
+    Coordinate    Acceleration
+    X            -0.672821E-15
+    Y            -0.606982E-02
+    Z            -0.225952E-01
+    OMEGAD_XL     0.137390E-14
+    OMEGAD_YL    -0.581132E-15
+    OMEGAD_ZL     0.138778E-16
+
+ Element: Middle_shaft_and_gears
+    Coordinate    Acceleration
+    X             0.176359E-16
+    Y             0.128562E-04
+    Z            -0.287260E-05
+    OMEGAD_XL    -0.723998E-02
+    OMEGAD_YL    -0.705954E-06
+    OMEGAD_ZL    -0.810872E-11
+
+ Element: Output_shaft_and_gear
+    Coordinate    Acceleration
+    X             0.120452E-18
+    Y             0.551446E-05
+    Z            -0.208527E-04
+    OMEGAD_XL    -0.391925E-02
+    OMEGAD_YL    -0.373871E-05
+    OMEGAD_ZL     0.823039E-12
+
+ Element: Speed_shaft_and_gears
+    Coordinate    Acceleration
+    X            -0.121638E-05
+    Y            -0.142646E+07
+    Z            -0.145285E+07
+    OMEGAD_XL    -0.111901E+10
+    OMEGAD_YL      109111.    
+    OMEGAD_ZL     -1.73451    
+
+ Element: the_ground
+    Coordinate    Acceleration
+    X              0.00000    
+    Y              0.00000    
+    Z              0.00000    
+    OMEGAD_XL      0.00000    
+    OMEGAD_YL      0.00000    
+    OMEGAD_ZL      0.00000    
+
+Total Number of Bodies             =    5
+
+Total Number of Degrees of Freedom =   31
+Number of Kinematic Constraints    =   28
+Number of Drivers                  =    1
+Number of Initial Conditions       =    0
+Number of Degrees of Freedom       =    3
+
+[1027]
+Warning from Sparse matrix solution package.
+Matrix decomposition failed. Solver will recreate symbolic factorization
+and try decomposition of matrix again.
+  Warning flag            =     73
+  Current simulation time =   0.805494E-05
+
+[1027]
+Warning from Sparse matrix solution package.
+Matrix decomposition failed. Solver will recreate symbolic factorization
+and try decomposition of matrix again.
+  Warning flag            =     82
+  Current simulation time =   0.262875E-01
+
+[1027]
+Warning from Sparse matrix solution package.
+Matrix decomposition failed. Solver will recreate symbolic factorization
+and try decomposition of matrix again.
+  Warning flag            =     64
+  Current simulation time =   0.741253
+
+[1027]
+Warning from Sparse matrix solution package.
+Matrix decomposition failed. Solver will recreate symbolic factorization
+and try decomposition of matrix again.
+  Warning flag            =     72
+  Current simulation time =   0.746867
+
+[1027]
+Warning from Sparse matrix solution package.
+Matrix decomposition failed. Solver will recreate symbolic factorization
+and try decomposition of matrix again.
+  Warning flag            =     64
+  Current simulation time =    1.04644
+
+[1027]
+Warning from Sparse matrix solution package.
+Matrix decomposition failed. Solver will recreate symbolic factorization
+and try decomposition of matrix again.
+  Warning flag            =     98
+  Current simulation time =    1.05015
+
+[1027]
+Warning from Sparse matrix solution package.
+Matrix decomposition failed. Solver will recreate symbolic factorization
+and try decomposition of matrix again.
+  Warning flag            =     64
+  Current simulation time =    1.09702
+
+[1027]
+Warning from Sparse matrix solution package.
+Matrix decomposition failed. Solver will recreate symbolic factorization
+and try decomposition of matrix again.
+  Warning flag            =     98
+  Current simulation time =    1.10525
+
+[1027]
+Warning from Sparse matrix solution package.
+Matrix decomposition failed. Solver will recreate symbolic factorization
+and try decomposition of matrix again.
+  Warning flag            =     64
+  Current simulation time =    1.20574
+
+[1027]
+Warning from Sparse matrix solution package.
+Matrix decomposition failed. Solver will recreate symbolic factorization
+and try decomposition of matrix again.
+  Warning flag            =     98
+  Current simulation time =    1.21013
+
+[1027]
+Warning from Sparse matrix solution package.
+Matrix decomposition failed. Solver will recreate symbolic factorization
+and try decomposition of matrix again.
+  Warning flag            =     64
+  Current simulation time =    1.25555
+
+The number of symbolic factorizations of the Acceleration matrix =                    6
+
+The number of symbolic factorizations of BDF Jacobian matrix =                   12
+
+[1441]
+Final integrator statistics:
+  Number of steps                 =                22089
+  Number of f-s                   =               119460
+  Number of j-s                   =                15958
+  Ratio of f-s/steps              =  5.4081216895287
+  Ratio of j-s/steps              = 0.72244103399882
+  Current time                    =  1.2557008912858
+  Total velocity computations     =                    0
+  Total position computations     =                    0
+Average Integration Order =   1.034406265562    
+Average Step Size         =  0.5684733991063E-04
+
+Userdef was internal
+
+Run aborted at users request                                                    
+
+    Total elapsed CPU time:   198.7860    
+    Total clock time:        199
