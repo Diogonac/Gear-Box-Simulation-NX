@@ -332,63 +332,6 @@ HIEROBJECT10
 0.000000000000E+00  0.000000000000E+00  0.000000000000E+00                      
 0.000000000000E+00  0.000000000000E+00  0.000000000000E+00  FALSE               
 0.000000000000E+00  0.000000000000E+00  0.000000000000E+00                      
-CONTACT  GCONTACT_TESS1           1    1    1                                   
-BODY1               BODY4               NONE                NONE                
-CAD                 AUTO                                    NONE                
-NONE                NONE                NONE                NONE                
-0.000000000000E+00  0.000000000000E+00  0.000000000000E+00  5.0000000000000E+00 
-0.000000000000E+00  0.000000000000E+00  0.000000000000E+00  0.000000000000E+00  
-0.000000000000E+00  0.000000000000E+00  1.0000000000000E+00 0.000000000000E+00  
-0.000000000000E+00  0.000000000000E+00  1.0000000000000E+00 0.000000000000E+00  
-1.0000000000000E+00 0.000000000000E+00  0.000000000000E+00                      
-1.0000000000000E+00 0.000000000000E+00  0.000000000000E+00  0.000000000000E+00  
-0.000000000000E+00  1.0000000000000E+00 0.000000000000E+00  1.0000000000000E+00 
-0.000000000000E+00  0.000000000000E+00  0.000000000000E+00  0.000000000000E+00  
-1.0000000000000E+05 1.0000000000000E+01 0.000000000000E+00  0.000000000000E+00  
-0.000000000000E+00  1.0000000000000E+00 0.000000000000E+00  0.000000000000E+00  
-NONE                NONE                NONE                NONE                
-NONE                3.0000000000000E-01 3.0000000000000E-01 5.0000000000000E-03 
-TESSELLATED         FILE2               FILE1                                   
-2.0000000000000E+00 2.5400000000000E-02 FALSEFALSE          1.0000000000000E-04 
-0.000000000000E+00  1.0000000000000E+01 0.000000000000E+00  2.0000000000000E+01 
-CONTACT  GCONTACT_TESS2           1    1    1                                   
-BODY4               BODY2               NONE                NONE                
-CAD                 AUTO                                    NONE                
-NONE                NONE                NONE                NONE                
-0.000000000000E+00  0.000000000000E+00  0.000000000000E+00  5.0000000000000E+00 
-0.000000000000E+00  0.000000000000E+00  0.000000000000E+00  0.000000000000E+00  
-0.000000000000E+00  0.000000000000E+00  1.0000000000000E+00 0.000000000000E+00  
-0.000000000000E+00  0.000000000000E+00  1.0000000000000E+00 0.000000000000E+00  
-1.0000000000000E+00 0.000000000000E+00  0.000000000000E+00                      
-1.0000000000000E+00 0.000000000000E+00  0.000000000000E+00  0.000000000000E+00  
-0.000000000000E+00  1.0000000000000E+00 0.000000000000E+00  1.0000000000000E+00 
-0.000000000000E+00  0.000000000000E+00  0.000000000000E+00  0.000000000000E+00  
-1.0000000000000E+05 1.0000000000000E+01 0.000000000000E+00  0.000000000000E+00  
-0.000000000000E+00  1.0000000000000E+00 0.000000000000E+00  0.000000000000E+00  
-NONE                NONE                NONE                NONE                
-NONE                3.0000000000000E-01 3.0000000000000E-01 5.0000000000000E-03 
-TESSELLATED         FILE4               FILE3                                   
-2.0000000000000E+00 2.5400000000000E-02 FALSEFALSE          1.0000000000000E-04 
-0.000000000000E+00  1.0000000000000E+01 0.000000000000E+00  2.0000000000000E+01 
-CONTACT  GCONTACT_TESS3           1    1    1                                   
-BODY2               BODY3               NONE                NONE                
-CAD                 AUTO                                    NONE                
-NONE                NONE                NONE                NONE                
-0.000000000000E+00  0.000000000000E+00  0.000000000000E+00  5.0000000000000E+00 
-0.000000000000E+00  0.000000000000E+00  0.000000000000E+00  0.000000000000E+00  
-0.000000000000E+00  0.000000000000E+00  1.0000000000000E+00 0.000000000000E+00  
-0.000000000000E+00  0.000000000000E+00  1.0000000000000E+00 0.000000000000E+00  
-1.0000000000000E+00 0.000000000000E+00  0.000000000000E+00                      
-1.0000000000000E+00 0.000000000000E+00  0.000000000000E+00  0.000000000000E+00  
-0.000000000000E+00  1.0000000000000E+00 0.000000000000E+00  1.0000000000000E+00 
-0.000000000000E+00  0.000000000000E+00  0.000000000000E+00  0.000000000000E+00  
-1.0000000000000E+05 1.0000000000000E+01 0.000000000000E+00  0.000000000000E+00  
-0.000000000000E+00  1.0000000000000E+00 0.000000000000E+00  0.000000000000E+00  
-NONE                NONE                NONE                NONE                
-NONE                3.0000000000000E-01 3.0000000000000E-01 5.0000000000000E-03 
-TESSELLATED         FILE6               FILE5                                   
-2.0000000000000E+00 2.5400000000000E-02 FALSEFALSE          1.0000000000000E-04 
-0.000000000000E+00  1.0000000000000E+01 0.000000000000E+00  2.0000000000000E+01 
 REVOLUTE EREVOLUTE_JOINT1     BODY5               BODY1                         
 HIEROBJECT23                                                                    
 HIEROBJECT13                                                                    
@@ -425,7 +368,7 @@ REL.ANGLE POLYNOMIAL          NONE                REVOLUTE_JOINT1
 0.000000000000E+00  0.000000000000E+00  1.0000000000000E+00 0.000000000000E+00  
 1.0000000000000E+00 0.000000000000E+00  0.000000000000E+00                      
 1.0000000000000E+00 0.000000000000E+00  0.000000000000E+00                      
-0.000000000000E+00  1.0471975511966E+00 0.000000000000E+00  0.000000000000E+00  
+0.000000000000E+00  3.4906585039887E+00 0.000000000000E+00  0.000000000000E+00  
 NONE                                                        ACTIV               
 UNUSED                                                                          
 UNUSED                                                                          
@@ -473,15 +416,6 @@ the_ground
 NAMEMAP   BODY5_REF           14   14   UTF8 UTF8 ELEMENT                       
 the_ground_REF                                                                  
 the_ground_REF                                                                  
-NAMEMAP   CONTACT_TESS1       4    4    UTF8 UTF8 ELEMENT                       
-G001                                                                            
-G001                                                                            
-NAMEMAP   CONTACT_TESS2       4    4    UTF8 UTF8 ELEMENT                       
-G004                                                                            
-G004                                                                            
-NAMEMAP   CONTACT_TESS3       4    4    UTF8 UTF8 ELEMENT                       
-G005                                                                            
-G005                                                                            
 NAMEMAP   REVOLUTE_JOINT1     4    4    UTF8 UTF8 ELEMENT                       
 J001                                                                            
 J001                                                                            
@@ -497,21 +431,3 @@ J004
 NAMEMAP   DRIVER_JOINT1       14   14   UTF8 UTF8 ELEMENT                       
 MOTION_J001_RZ                                                                  
 MOTION_J001_RZ                                                                  
-NAMEMAP   FILE1               122  0    UTF8 UTF8 FILE                          
-C:\Users\Acer\Desktop\Gear-Box-Simulation-NX\gear box assembly_sldasm_simulaçã
-o-Solution001_40_Speed_shaft_and_gears.off                                      
-NAMEMAP   FILE2               121  0    UTF8 UTF8 FILE                          
-C:\Users\Acer\Desktop\Gear-Box-Simulation-NX\gear box assembly_sldasm_simulaçã
-o-Solution001_40_Input_shaft_and_gear.off                                       
-NAMEMAP   FILE3               123  0    UTF8 UTF8 FILE                          
-C:\Users\Acer\Desktop\Gear-Box-Simulation-NX\gear box assembly_sldasm_simulaçã
-o-Solution001_41_Middle_shaft_and_gears.off                                     
-NAMEMAP   FILE4               122  0    UTF8 UTF8 FILE                          
-C:\Users\Acer\Desktop\Gear-Box-Simulation-NX\gear box assembly_sldasm_simulaçã
-o-Solution001_41_Speed_shaft_and_gears.off                                      
-NAMEMAP   FILE5               122  0    UTF8 UTF8 FILE                          
-C:\Users\Acer\Desktop\Gear-Box-Simulation-NX\gear box assembly_sldasm_simulaçã
-o-Solution001_42_Output_shaft_and_gear.off                                      
-NAMEMAP   FILE6               123  0    UTF8 UTF8 FILE                          
-C:\Users\Acer\Desktop\Gear-Box-Simulation-NX\gear box assembly_sldasm_simulaçã
-o-Solution001_42_Middle_shaft_and_gears.off                                     
